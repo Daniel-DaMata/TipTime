@@ -12,11 +12,12 @@
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
+        android:autofillHints=""
+        android:background="@color/secondaryLightColor"
         android:hint="@string/cost_of_service"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/service_question"
@@ -59,6 +60,7 @@
         android:id="@+id/round_up_switch"
         android:layout_width="399dp"
         android:layout_height="40dp"
+        android:background="@color/primaryDarkColor"
         android:checked="true"
         android:text="@string/round_up_switch"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,6 +75,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:background="@color/primaryColor"
         android:text="@string/calculate_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
